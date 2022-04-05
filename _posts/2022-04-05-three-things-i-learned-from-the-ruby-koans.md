@@ -7,7 +7,7 @@ This week I completed [The Ruby Koans](http://rubykoans.com/), a 281-problem exc
 
 Here are some things I learned:
 
-#### 1) Blocks 
+### 1) Blocks 
 Ruby blocks are anonymous functions that can be passed into methods. Blocks are enclosed in a do-end statement or curly braces {}. do-end is usually used for blocks that span through multiple lines while {} is used for single line blocks. Blocks can have arguments which should be defined between two pipe | characters.
 
 One way to pass an each statement:
