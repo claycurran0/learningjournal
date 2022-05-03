@@ -35,7 +35,7 @@ get "/directors" => "directors#index", as: :directors
 
 Just like that, we've defined the `:directors` method to register a url or a route path depending on how we call it. We'll get more into that in the next section.
 
-#### **2) Link_to and form_with**
+#### **2) Link_to**
 Some helper methods are used to produce actual HTML elements. With a simple call to one of these methods, lines or blocks of ugly code can be automatically produced on the backend in the rendered page. The first examplee is `link_to`.
 
 In HTML, if we wanted to render a link, we'd type something like this:
