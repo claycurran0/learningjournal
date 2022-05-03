@@ -40,10 +40,13 @@ Some helper methods are used to produce actual HTML elements. With a simple call
 
 In HTML, if we wanted to render a link, we'd type something like this:
 ````ruby
-<a href ="https://www.google.com">Go to Google!</a>
+<a href="/directors">Directors</a>
 ````
 
 Here's how we can use `link_to` to simplify this:
 ````ruby
-<%= link_to directors_path%>
+<%= link_to directors_path %>
 ````
+
+Notice we called `directors_path`. This was a method that we created earlier when we added `as: :directors` to the route method. This improves readability, but perhaps more importantly it creates substantially more flexibility to modify our app. For example, if we wanted to change the `/directors' url to '/all', we could simply change the route file, and wouldn't need to go through our files to change every call to the route. Major time saver!
+
